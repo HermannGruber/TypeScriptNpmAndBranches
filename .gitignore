@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 /WebApplication1/dist/*
+/WebApplication1/wwwroot/js/hello.js
