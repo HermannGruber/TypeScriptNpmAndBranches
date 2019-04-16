@@ -1,9 +1,9 @@
 ﻿{
     "compilerOptions": {
-        "module": "none",
+        "module": "es2015",
         "strict": true,
         "noEmitOnError": true,
-        "sourceMap": false,
+        "sourceMap": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "target": "es5",
@@ -12,7 +12,7 @@
             "es5",
             "dom"
         ],
-        "outDir": "wwwroot/js"
+        "outDir": "dist"
     },
     "exclude": [ "node_modules, wwwroot" ],
     "include": [ "scripts/**/*" ],
