@@ -21,5 +21,8 @@
     "BeforeBuild": [
       "build:webpack"
     ]
+  },
+  "dependencies": {
+    "jquery": "^3.4.0"
   }
 }
