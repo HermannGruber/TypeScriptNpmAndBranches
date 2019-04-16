@@ -1,0 +1,20 @@
+﻿{
+    "compilerOptions": {
+        "module": "none",
+        "strict": true,
+        "noEmitOnError": true,
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "target": "es5",
+        "lib": [
+            "es2015",
+            "es5",
+            "dom"
+        ],
+        "outDir": "wwwroot/js"
+    },
+    "exclude": [ "node_modules, wwwroot" ],
+    "include": [ "scripts/**/*" ],
+    "compileOnSave": true
+}
